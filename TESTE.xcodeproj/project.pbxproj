@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		315FFA662DBFF3A50017ED80 /* hello.md in Resources */ = {isa = PBXBuildFile; fileRef = 315FFA652DBFF3960017ED80 /* hello.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		315FFA492DBFED4B0017ED80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		315FFA362DBFED4A0017ED80 /* TESTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESTE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		315FFA482DBFED4B0017ED80 /* TESTETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		315FFA522DBFED4B0017ED80 /* TESTEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		315FFA652DBFF3960017ED80 /* hello.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = hello.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				315FFA4B2DBFED4B0017ED80 /* TESTETests */,
 				315FFA552DBFED4B0017ED80 /* TESTEUITests */,
 				315FFA372DBFED4A0017ED80 /* Products */,
+				315FFA652DBFF3960017ED80 /* hello.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315FFA662DBFF3A50017ED80 /* hello.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
